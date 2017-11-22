@@ -1,0 +1,38 @@
+{
+  "name": "plus-friend-bot",
+  "version": "0.1.0",
+  "description": "KakaoTalk Plus Friend Bot Framework for Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib test",
+    "lint-fix": "eslint lib test --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astro36/PlusFriendBot.git"
+  },
+  "keywords": [
+    "kakaotalk",
+    "plus-friend",
+    "bot"
+  ],
+  "author": {
+    "name": "Astro36",
+    "email": "astr36@naver.com",
+    "url": "http://astro36.me"
+  },
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Astro36/PlusFriendBot/issues"
+  },
+  "homepage": "https://github.com/Astro36/PlusFriendBot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
