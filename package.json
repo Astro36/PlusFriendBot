@@ -1,7 +1,7 @@
 {
   "name": "plus-friend-bot",
   "version": "0.1.0",
-  "description": "KakaoTalk Plus Friend Bot Framework for Node.js",
+  "description": "Kakao Plus Friend Auto Reply Bot Framework for Node.js",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint lib test",
