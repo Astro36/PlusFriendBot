@@ -1,6 +1,6 @@
 # PlusFriendBot
 
-> KakaoTalk Plus Friend Bot Framework for Node.js
+> Kakao Plus Friend Auto Reply Bot Framework for Node.js
 
 ## License
 
