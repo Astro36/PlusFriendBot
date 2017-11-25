@@ -2,6 +2,26 @@
 
 > Kakao Plus Friend Auto Reply Bot Framework for Node.js
 
+[![npm](https://img.shields.io/npm/v/plus-friend-bot.svg?style=flat-square)](https://www.npmjs.com/package/plus-friend-bot) [![npm](https://img.shields.io/npm/dt/plus-friend-bot.svg?style=flat-square)](https://www.npmjs.com/package/plus-friend-bot)
+
+## ChangeLog
+
+See [CHANGELOG](./CHANGELOG.md)
+
+## Installation
+
+- Install with npm:
+
+```bash
+npm install plus-friend-bot --save
+```
+
+- Clone the repo:
+
+```bash
+git clone https://github.com/Astro36/PlusFriendBot.git
+```
+
 ## License
 
 ```text
