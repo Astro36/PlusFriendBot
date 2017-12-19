@@ -1,6 +1,6 @@
 {
   "name": "plus-friend-bot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kakao Plus Friend Auto Reply Bot Framework for Node.js",
   "main": "lib/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
+    "eslint": "^4.13.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0"
   }
