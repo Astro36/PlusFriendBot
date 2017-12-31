@@ -22,6 +22,23 @@ npm install plus-friend-bot --save
 git clone https://github.com/Astro36/PlusFriendBot.git
 ```
 
+## Usage
+
+```javascript
+const {
+  PlusFriendBot, PlusFriendKeyboard, PlusFriendMessage, PlusFriendResponse,
+} = require('plus-friend-bot');
+
+const plusFriendBot = new PlusFriendBot('korean_school_meal_bot', 1234);
+
+plusFriendBot.onStart(new PlusFriendKeyboard('buttons', ['급식 정보', '학교 설정']));
+plusFriendBot.onText((userKey, type, content, send) => {
+  if (content === '도움말') {
+    send(new PlusFriendResponse(new PlusFriendMessage('물어보고 싶은 것 있어?'), new PlusFriendKeyboard('buttons', ['급식 정보', '학교 변경'])));
+  }
+});
+```
+
 ## License
 
 ```text
